@@ -29,7 +29,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fabricio-191/valve-server-query": "^4.1.8",
 		"@types/gamedig": "^4.0.0",
 		"gamedig": "^4.0.5"
 	}

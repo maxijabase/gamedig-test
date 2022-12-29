@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@fabricio-191/valve-server-query': ^4.1.8
   '@sveltejs/adapter-auto': ^1.0.0
   '@sveltejs/kit': ^1.0.0
   '@types/gamedig': ^4.0.0
@@ -20,7 +19,6 @@ specifiers:
   vite: ^4.0.0
 
 dependencies:
-  '@fabricio-191/valve-server-query': 4.1.8
   '@types/gamedig': 4.0.0
   gamedig: 4.0.5
 
@@ -256,10 +254,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
-
-  /@fabricio-191/valve-server-query/4.1.8:
-    resolution: {integrity: sha512-Su1gK6poRUEnfvTMbq1r6BOvRhjB/JbZwnXpdIEcrHHZoRM5dUjBUWYcErML3xOLG9mIvr8n5A6QKpeXbW2Zww==}
-    dev: false
 
   /@humanwhocodes/config-array/0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
