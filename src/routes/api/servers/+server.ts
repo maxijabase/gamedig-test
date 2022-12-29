@@ -1,6 +1,6 @@
 import { json } from '@sveltejs/kit';
 import Gamedig from 'gamedig';
-import type { RequestHandler } from '../$types';
+import type { RequestHandler } from './$types';
 
 export const GET: RequestHandler = async () => {
 	let result = await Gamedig.query({

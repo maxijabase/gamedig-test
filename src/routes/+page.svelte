@@ -1,7 +1,15 @@
 <script lang="ts">
-	import { serversStore, loading, fetchServers } from '../stores/servers';
+	import type { ServerInfo } from 'src/types/serverInfo';
+	import { onMount } from 'svelte';
+	import { serversStore, loading } from '../stores/servers';
 
-	fetchServers()
+	onMount(async () => {
+			loading.set(true);
+			let response = await fetch('/api/servers');
+			let result: ServerInfo = await response.json();
+			serversStore.set(result);
+			loading.set(false);
+	});
 </script>
 
 {#if $loading}
