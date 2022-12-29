@@ -1,6 +1,5 @@
 import { json } from '@sveltejs/kit';
-import pkg from '@fabricio-191/valve-server-query'
-const { Server } = pkg;
+import { Server } from '@fabricio-191/valve-server-query'
 import type { RequestHandler } from '../$types';
 
 export const GET: RequestHandler = async () => {
